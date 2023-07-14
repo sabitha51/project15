@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    transform-origin: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    background:url(./aasert/doraman\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 500px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left:100px;
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.ball {
+    background: url(./aasert/doreman\ eye.jpg);
+    background-repeat: no-repeat;
+    background-size:20px;
+    width: 20px;
+    height: 30px;
+    margin-top: 47px;
+    margin-left: -110px;
+    margin-bottom: 30px;
+    border-radius: 60% ;
+    position: fixed;
+}
